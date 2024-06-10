@@ -1,0 +1,2 @@
+Moneda origen: BIF Monto: 250.0 || Moneda destino: BAM Monto: 0.1579025
+Fecha de realización: 09-06-2024 22:39:20

@@ -43,14 +43,13 @@ public class GeneradorDeSolicitudes {
     public double obtenerEquivalenteDeUnaMoneda(String origen, String destino) {
         try {
             HttpRequest request = HttpRequest.newBuilder()
-                    .uri(URI.create("https://v6.exchangerate-api.com/v6/8e147bafd016b2c54a9f58c1/latest/" + origen))
+                    .uri(URI.create("https://v6.exchangerate-api.com/v6/8e147bafd016b2c54a9f58c1/pair/" + origen + "/" + destino))
                     .build();
             HttpResponse<String> response = this.cliente
                     .send(request, HttpResponse.BodyHandlers.ofString());
             String json = response.body();
             JsonObject jsonObject = gson.fromJson(json, JsonObject.class);
-            JsonObject preciosDeIntercambio = jsonObject.getAsJsonObject("conversion_rates");
-            return preciosDeIntercambio.get(destino).getAsDouble();
+            return Double.parseDouble(jsonObject.get("conversion_rate").toString());
         } catch (IOException | InterruptedException e) {
             return -1;
         }
