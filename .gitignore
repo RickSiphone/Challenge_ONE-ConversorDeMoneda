@@ -27,3 +27,6 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+###Archivo generado por el programa ###
+ historial_de_conversiones.txt
