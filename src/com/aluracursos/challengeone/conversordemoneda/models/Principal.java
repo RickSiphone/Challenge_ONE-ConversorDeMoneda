@@ -1,5 +1,6 @@
 package com.aluracursos.challengeone.conversordemoneda.models;
 
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.time.LocalDateTime;
@@ -8,12 +9,18 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Principal {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         try {
             GeneradorDeSolicitudes generadorDeSolicitudes = new GeneradorDeSolicitudes();
             ArrayList<String> monedasDisponibles = generadorDeSolicitudes.obtenerMonedasDisponibles();
             Scanner input = new Scanner(System.in);
-            FileWriter archivo = new FileWriter("historial_de_conversiones.txt");
+            File revisarArchivo = new File("historial_de_conversiones.txt");
+            FileWriter archivo;
+            if (revisarArchivo.isFile()) {
+                archivo = new FileWriter("historial_de_conversiones.txt",true);
+            } else {
+                archivo = new FileWriter("historial_de_conversiones.txt");
+            }
             ConversorDeDinero conversorDeDinero = new ConversorDeDinero();
             System.out.println();
             while(true) {
@@ -63,10 +70,8 @@ public class Principal {
             System.out.println("Finalizando el programa");
         } catch (IOException e) {
             System.out.println(e.getMessage());
+        } catch (NumberFormatException e) {
+            System.out.println("Error: El valor ingresado no es un número");
         }
     }
 }
-
-
-
-
