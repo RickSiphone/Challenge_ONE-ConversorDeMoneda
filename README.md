@@ -1,6 +1,7 @@
-<h1 align="center"> Challenge ONE - Java Back End - Conversor de monedas</h1>
-
- ![Badge en Desarollo](https://img.shields.io/badge/STATUS-%20FINALIZADO-green)
+<div style="text-align: center;">
+    <h1>Challenge ONE - Java Back End - Conversor de monedas</h1>
+    <img src="https://imgur.com/a/j39bDXk">
+</div>
 
  ## Descripción del proyecto
 Este proyecto fue realizado para cumplir un Challenge propuesto en uno de los cursos de Alura, el cual solicitaba realizar un programa que permita convertir una cantidad de dinero de alguna moneda o divisa a otra.
@@ -52,7 +53,7 @@ Como marca un error se regresa al menú y ahora ingreso todos los datos de maner
 Para ver este archivo solo basta con abrirlo con cualquier editor de textos como el bloc de Notas de Windows.
 ![image](https://github.com/RickSiphone/Challenge_ONE-ConversorDeMoneda/assets/156386884/0bfc812e-4e71-4b54-b654-57bf02e3c3c4)
 
-## [Como acceder al proyecto](#Como-acceder-al-proyecto)
+## 👓[Como acceder al proyecto](#Como-acceder-al-proyecto)
 
 **Paso 1. Descargar el proyecto**
 ![Captura de pantalla 2024-06-10 164415](https://github.com/RickSiphone/Challenge_ONE-ConversorDeMoneda/assets/156386884/e312adcf-9072-4565-9db4-56c6fb49ef0b)
@@ -64,6 +65,13 @@ Para ver este archivo solo basta con abrirlo con cualquier editor de textos como
 ![image](https://github.com/RickSiphone/Challenge_ONE-ConversorDeMoneda/assets/156386884/1d9c9710-8551-41f6-81aa-95d544dde325)
 
 
+## 🧑‍💻[Tecnologías utilizadas](#Tecnologías-utilizadas)
+
+Para la realización de este proyecto se utilizó:
+* Lenguaje de programación: Java
+* JDK 20.0.1
+* IDE IntelliJ IDEA Community Edition 2024.1.2
+* Biblioteca externa para el manejo de solicitudes de API gson-2.11.0
 
 
 
