@@ -54,3 +54,17 @@ Para ver este archivo solo basta con abrirlo con cualquier editor de textos como
 
 ## [Como acceder al proyecto](#Como-acceder-al-proyecto)
 
+**Paso 1. Descargar el proyecto**
+![Captura de pantalla 2024-06-10 164415](https://github.com/RickSiphone/Challenge_ONE-ConversorDeMoneda/assets/156386884/e312adcf-9072-4565-9db4-56c6fb49ef0b)
+
+**Paso 2. Descomprimir el programa**
+![image](https://github.com/RickSiphone/Challenge_ONE-ConversorDeMoneda/assets/156386884/30a554f5-e4fc-48de-add7-31c8dd69ce87)
+
+**Paso 3. Compilar el programa**: Es necesario tener instalado Java
+![image](https://github.com/RickSiphone/Challenge_ONE-ConversorDeMoneda/assets/156386884/1d9c9710-8551-41f6-81aa-95d544dde325)
+
+
+
+
+
+
