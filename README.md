@@ -1,7 +1,10 @@
-<div style="text-align: center;">
+<div align="center">
     <h1>Challenge ONE - Java Back End - Conversor de monedas</h1>
-    <img src="https://imgur.com/a/j39bDXk">
+    <img width="42%" src="img/logo.jpg">
 </div>
+
+
+
 
  ## Descripción del proyecto
 Este proyecto fue realizado para cumplir un Challenge propuesto en uno de los cursos de Alura, el cual solicitaba realizar un programa que permita convertir una cantidad de dinero de alguna moneda o divisa a otra.
@@ -56,13 +59,16 @@ Para ver este archivo solo basta con abrirlo con cualquier editor de textos como
 ## 👓[Como acceder al proyecto](#Como-acceder-al-proyecto)
 
 **Paso 1. Descargar el proyecto**
+
 ![Captura de pantalla 2024-06-10 164415](https://github.com/RickSiphone/Challenge_ONE-ConversorDeMoneda/assets/156386884/e312adcf-9072-4565-9db4-56c6fb49ef0b)
 
 **Paso 2. Descomprimir el programa**
+
 ![image](https://github.com/RickSiphone/Challenge_ONE-ConversorDeMoneda/assets/156386884/30a554f5-e4fc-48de-add7-31c8dd69ce87)
 
-**Paso 3. Compilar el programa**: Es necesario tener instalado Java
-![image](https://github.com/RickSiphone/Challenge_ONE-ConversorDeMoneda/assets/156386884/1d9c9710-8551-41f6-81aa-95d544dde325)
+**Paso 3. Abrir el proyecto con alguna IDE como Intellij y ejecutar el programa**: 
+
+Tambien si prefieres solo descargar el JAR del programa, se encuentra en la siguiente ruta: "out/artifacts/Challenge_ONE_ConversorDeMoneda_jar"
 
 
 ## 🧑‍💻[Tecnologías utilizadas](#Tecnologías-utilizadas)
