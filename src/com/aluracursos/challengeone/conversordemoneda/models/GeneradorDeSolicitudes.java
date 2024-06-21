@@ -21,7 +21,7 @@ public class GeneradorDeSolicitudes {
     public ArrayList<String> obtenerMonedasDisponibles() {
         try {
             HttpRequest request = HttpRequest.newBuilder()
-                    .uri(URI.create("https://v6.exchangerate-api.com/v6/8e147bafd016b2c54a9f58c1/codes"))
+                    .uri(URI.create("https://v6.exchangerate-api.com/v6/${API_KEY}/codes"))
                     .build();
             HttpResponse<String> response = this.cliente
                     .send(request, HttpResponse.BodyHandlers.ofString());
@@ -43,7 +43,7 @@ public class GeneradorDeSolicitudes {
     public double obtenerEquivalenteDeUnaMoneda(String origen, String destino) {
         try {
             HttpRequest request = HttpRequest.newBuilder()
-                    .uri(URI.create("https://v6.exchangerate-api.com/v6/8e147bafd016b2c54a9f58c1/pair/" + origen + "/" + destino))
+                    .uri(URI.create("https://v6.exchangerate-api.com/v6/${API_KEY}/pair/" + origen + "/" + destino))
                     .build();
             HttpResponse<String> response = this.cliente
                     .send(request, HttpResponse.BodyHandlers.ofString());
