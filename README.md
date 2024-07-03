@@ -1,6 +1,6 @@
 <div align="center">
     <h1>Challenge ONE - Java Back End - Conversor de monedas</h1>
-    <img width="42%" src="img/logo.jpg">
+    <img width="42%" src="img/Badge-Conversor.png">
 </div>
 
 
